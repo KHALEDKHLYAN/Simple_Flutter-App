@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(
+void main() => runApp(const MaterialApp(
+      debugShowMaterialGrid: false,
       home: NinjaCard(),
     ));
 
